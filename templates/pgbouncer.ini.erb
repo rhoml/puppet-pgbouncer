@@ -1,0 +1,7 @@
+; use custom pool sizes
+nondefaultdb = pool_size=<%= @pool_size %> reserve_pool=<%= @reserve_pool %>
+
+[pgbouncer]
+<% @pgbouncer_conf.sort.each do |k, v|  -%>
+<%= k -%> = <%= v %>
+<% end -%>
