@@ -56,3 +56,4 @@ DEPENDENCIES
   puppet-lint (= 1.1.0)
   puppetlabs_spec_helper (= 0.10.3)
   rake
+  rspec-puppet (= 2.2.0)

@@ -1,4 +1,4 @@
-# puppet-module-pgbouncer
+# puppet-pgbouncer [![Build Status](https://travis-ci.org/rhoml/puppet-pgbouncer.svg?branch=master)](https://travis-ci.org/rhoml/puppet-pgbouncer)
 
 ## PGbouncer
 
