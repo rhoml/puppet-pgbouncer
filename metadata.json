@@ -1,14 +1,19 @@
 {
   "name": "puppet-pgbouncer",
   "version": "0.1.0",
-  "author": "puppet",
+  "author": "Rhommel Lamas",
   "summary": "Installs and configure pgbouncer",
   "license": "AML",
-  "source": "",
-  "project_page": null,
-  "issues_url": null,
+  "source": "https://github.com/rhoml/puppet-pgbouncer",
+  "project_page": "https://github.com/rhoml/puppet-pgbouncer",
+  "issues_url": "https://github.com/rhoml/puppet-pgbouncer/issues",
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 2.2.1"}
-  ]
+  ],
+  "operatingsystem_support": [
+    {
+    "operatingsystem": "Ubuntu",
+    "operatingsystemrelease": [ "12.04" ]
+    }
+   ]
 }
-
