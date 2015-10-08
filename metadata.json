@@ -1,12 +1,14 @@
 {
-  "name": "puppet-pgbouncer",
+  "name": "rhoml/pgbouncer",
   "version": "0.1.0",
-  "author": "Rhommel Lamas",
+  "author": "rhoml",
+  "email": "roml@rhommell.com",
   "summary": "Installs and configure pgbouncer",
   "license": "AML",
   "source": "https://github.com/rhoml/puppet-pgbouncer",
   "project_page": "https://github.com/rhoml/puppet-pgbouncer",
   "issues_url": "https://github.com/rhoml/puppet-pgbouncer/issues",
+  "tags": ["pgbouncer", "postgresql"],
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 2.2.1"}
   ],
